@@ -15,7 +15,7 @@
     font-size: 80px;
     font-weight: 800;
     margin-left: 240px;
-    margin-bottom: 300px;
+    padding-top: 230px;
 }
 
 .banner-description {
@@ -25,7 +25,7 @@
     font-weight: 400;
     line-height: 30px;
     margin-left: 240px;
-    margin-top: 217px;
+    margin-top: 60px;
 }
 
 .btn-primary {
@@ -62,11 +62,10 @@
     font-size: 18px;
     font-weight: 700;
     margin-left: 630px;
-
 }
 
 .featured-images {
-    display: flex;    
+    display: flex;
 }
 
 #flower1 {
@@ -77,7 +76,7 @@
     background-image: url(../images/pngwing\ 6.png);
     background-repeat: no-repeat;
     background-position: bottom center;
-    margin-left: 240px; 
+    margin-left: 240px;
 
 }
 
@@ -110,4 +109,31 @@
     font-weight: 700;
     text-decoration: underline;
     margin-top: 565px;
+}
+
+/* About Section Styles*/
+
+.about {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    margin-top: 200px;
+}
+.about-info {
+    width: 88px;
+    height: 88px;
+    margin-left: 150px;
+    margin-top: 85px;
+}
+.about-sub-info {
+    color: rgba(39, 39, 39, 0.80);
+    width: 375px;
+    height: 35px;
+    font-size: 24px;
+    font-weight: 600;
+
 }
