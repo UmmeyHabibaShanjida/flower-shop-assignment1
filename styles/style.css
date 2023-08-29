@@ -1,4 +1,5 @@
 /* Header Banner Styles */
+
 .header-banner {
     width: 1920px;
     height: 850px;
@@ -37,4 +38,76 @@
     font-weight: 700;
     padding: 20px 40px;
     margin-left: 240px;
+}
+
+/* Featured Flowers Styles */
+
+.about-featured {
+    margin-top: 150px;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-right: 300px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 630px;
+
+}
+
+.featured-images {
+    display: flex;    
+}
+
+#flower1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-image: url(../images/pngwing\ 6.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 240px; 
+
+}
+
+#flower2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url(../images/pngwing\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 30px;
+}
+
+#flower3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url(../images/pngwing\ 7.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-left: 30px;
+}
+
+.image-sub-title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 565px;
 }
