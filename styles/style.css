@@ -123,17 +123,56 @@
     margin-left: 240px;
     margin-top: 200px;
 }
+
 .about-info {
     width: 88px;
     height: 88px;
     margin-left: 150px;
     margin-top: 85px;
 }
+
 .about-sub-info {
     color: rgba(39, 39, 39, 0.80);
     width: 375px;
     height: 35px;
     font-size: 24px;
     font-weight: 600;
+}
 
+/* Hot Deal Styles */
+
+.sale{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    background-image: url(../images/pngwing\ 8.png);
+    background-repeat: no-repeat;
+    background-position: 1200px;
+}
+.sale-title {
+    color: #272727;
+    width: 535px;
+    height: 45px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 420px;
+    padding-top: 230px;
+}
+.text-color {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    width: 590px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 390px;
+}
+#btn-2{
+    margin-left: 600px;
 }
