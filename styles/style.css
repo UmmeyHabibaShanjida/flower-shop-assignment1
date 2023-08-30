@@ -141,7 +141,7 @@
 
 /* Hot Deal Styles */
 
-.sale{
+.sale {
     width: 1922px;
     height: 620px;
     border-radius: 8px;
@@ -150,6 +150,7 @@
     background-repeat: no-repeat;
     background-position: 1200px;
 }
+
 .sale-title {
     color: #272727;
     width: 535px;
@@ -159,11 +160,13 @@
     margin-left: 420px;
     padding-top: 230px;
 }
+
 .text-color {
     color: #E55473;
     font-size: 40px;
     font-weight: 800;
 }
+
 .sale-description {
     color: rgba(39, 39, 39, 0.60);
     width: 590px;
@@ -173,6 +176,108 @@
     font-weight: 400;
     margin-left: 390px;
 }
-#btn-2{
+
+#btn-2 {
     margin-left: 600px;
+}
+
+/* Instagram Section Styles */
+
+.instagram {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    width: 590px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 735px;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Latest Deal Section */
+
+.deal {
+    width: 1440px;
+    height: 449px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 325px;
+    margin-top: 155px;
+}
+
+.latest-deal {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 150px;
+}
+
+.latest-deal-info {
+    color: rgba(39, 39, 39, 0.60);
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 600px;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 280px;
+    border:hidden;
+}
+.btn-3 {
+}
+
+/* Footer Section Styles */
+
+.footer{
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+    text-align: center;
+    margin-top: 150px;
+}
+.flower{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.flower-shop{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 125px;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    width: 625px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 640px;
+}
+.complete{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
